@@ -1,0 +1,12 @@
+Sono state effettuate le seguenti modifiche al codice rispetto allo pseudocodice precedentemente conseganto:
+
+1) Funzione "CancellareBrano"
+Aggiunto ciclo che cancella le associazioni brano-playlist.
+
+2) Funzioni di Cancellazione
+Aggiunta variabile booleana "esito", la quale permette di uscire dal ciclo
+quando un elelemento viene correttamente eliminato dal database
+
+3) Riferimenti al Database
+Molti riferimenti diretti al Database sono stati sostituiti con le corrispondenti
+funzioni di lettura/scrittura del campo del Database considerato
